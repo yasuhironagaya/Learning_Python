@@ -42,3 +42,16 @@ match fruit:
         print('モモ')
     case _:
         print('その他の果物')
+
+# 三項演算子
+
+age = 18
+
+if age >= 20:
+    print('adult')
+else:
+    print('child')
+
+age = 18
+
+print("adult" if age >= 20 else "child")
